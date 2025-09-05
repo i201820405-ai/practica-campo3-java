@@ -4,16 +4,15 @@ import java.util.ArrayList;
 
 public class Colecciones {
     public static void main(String[] args) {
-        ArrayList<String> nombres = new ArrayList<>();
+        // Creamos una lista de nombres
+        ArrayList<String> lista = new ArrayList<>();
 
-        // Agregar elementos
-        nombres.add("Miguel");
-        nombres.add("Ana");
-        nombres.add("Luis");
+        lista.add("Miguel");
+        lista.add("Ana");
+        lista.add("Luis");
 
-        // Mostrar todos los nombres
         System.out.println("Lista de nombres:");
-        for (String nombre : nombres) {
+        for (String nombre : lista) {
             System.out.println("- " + nombre);
         }
     }
